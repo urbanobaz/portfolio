@@ -7,9 +7,18 @@
 module.exports = {
   siteMetadata: {
     title: "Urbano's Portfolio",
-    author: "Urbano Baz"
+    author: "Urbano Baz",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`
-  ]
+    `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: path.join(__dirname, `src`, `images`),
+    //   },
+    // },
+    // `gatsby-plugin-sharp`,
+    // `gatsby-transformer-sharp`,
+  ],
 }

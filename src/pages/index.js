@@ -1,12 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 // import { Link } from "gatsby"
-import headshot from "../../public/images/urbano4.jpeg"
-import cs50x from "../../public/images/cs50x.jpeg"
-import googleit from "../../public/images/googleit.jpeg"
-import books from "../../public/images/books.jpeg"
+import headshot from "../../static/images/urbano4.jpeg"
+import cs50x from "../../static/images/cs50x.jpeg"
+import googleit from "../../static/images/googleit.jpeg"
+import books from "../../static/images/books.jpeg"
 import miami from "../../static/images/miami.jpg"
-import portfolio from "../../public/images/portfolio.jpeg"
+import portfolio from "../../static/images/portfolio.jpeg"
 // import Card from "../components/Card"
 
 function Index() {
