@@ -76,6 +76,15 @@ function Index() {
           </ul>
         </main>
       </div>
+
+      {/* <section className="projects">
+        <h1 className="section-heading">About</h1>
+        <p className="about-paragraph">
+          CS50x student to CS50x instructor to self taught developer. From
+          Miami, FL. Florida State Seminole.
+        </p>
+      </section> */}
+
       <section className="projects">
         <h1 className="section-heading">Projects</h1>
 
@@ -91,11 +100,18 @@ function Index() {
                 College.
               </p>
               <p>
-                <strong>Technologies used:</strong> React (Gatsby) on the front
-                end, API call to the Google books page to add books. Custom
-                cards using NextJS's initial page.
+                <strong>Technologies used:</strong> Python (Flask) on the
+                backend. HTML, CSS, JavaScript on the frontend. Jinja as Flask's
+                templating language. Bootstrap as the CSS framework for styling.
               </p>
-              <a href="urbanobaz.com">cs50x.herokuapp.com</a>
+              <strong>URL: </strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.cs50x.herokuapp.com/"
+              >
+                www.cs50x.herokuapp.com
+              </a>
             </div>
           </div>
 
@@ -110,13 +126,18 @@ function Index() {
                 with Python course at Miami Dade College.
               </p>
               <p>
-                <a href="http://cs50x.herokuapp.com/">Website Link</a>
+                <strong>Technologies used:</strong> Python (Flask) on the
+                backend. HTML, CSS, JavaScript on the frontend. Jinja as Flask's
+                templating language. Bootstrap as the CSS framework for styling.
               </p>
-              <p>
-                <strong>Technologies used:</strong> React (Gatsby) on the front
-                end, API call to the Google books page to add books. Custom
-                cards using NextJS's initial page.
-              </p>
+              <strong>URL: </strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://www.googleitmiami.herokuapp.com/"
+              >
+                www.googleitmiami.herokuapp.com
+              </a>
             </div>
           </div>
 
@@ -124,18 +145,25 @@ function Index() {
             <img src={books} alt="headshot" className="card-image"></img>
             <div className="container">
               <h2>
-                <b>Project 3: Books&More</b>
+                <b>Project 3: Books & More</b>
               </h2>
               <p>
                 <strong>Info:</strong> Personal project to keep track of some of
-                the books that I had read. Used the Google books API to add new
-                books.
+                the books that I had read.
               </p>
               <p>
-                <strong>Technologies used:</strong> React on the front end, API
-                call to the Google books page to add books. Custom cards using
-                NextJS's initial page.
+                <strong>Technologies used:</strong> React (NextJS) on the front
+                end, API call to the Google books page to add books. Custom
+                cards using the Next framework's initial page style.
               </p>
+              <strong>URL: </strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.github.com/urbanobaz/booksv2/"
+              >
+                www.github.com/urbanobaz/booksv2
+              </a>
             </div>
           </div>
 
@@ -151,10 +179,16 @@ function Index() {
               </p>
               <p>
                 <strong>Technologies used:</strong> React (Gatsby) on the front
-                end, API call to the Google books page to add books. Custom
-                cards using NextJS's initial page.
-                <a href="http://cs50x.herokuapp.com/">Website Link</a>
+                end.
               </p>
+              <strong>URL: </strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.urbanobaz.com/"
+              >
+                www.urbanobaz.com
+              </a>
             </div>
           </div>
         </div>
