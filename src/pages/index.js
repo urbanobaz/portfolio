@@ -103,6 +103,7 @@ function Index() {
                 <strong>Technologies used:</strong> Python (Flask) on the
                 backend. HTML, CSS, JavaScript on the frontend. Jinja as Flask's
                 templating language. Bootstrap as the CSS framework for styling.
+                Heroku for hosting.
               </p>
               <strong>URL: </strong>
               <a
@@ -129,6 +130,7 @@ function Index() {
                 <strong>Technologies used:</strong> Python (Flask) on the
                 backend. HTML, CSS, JavaScript on the frontend. Jinja as Flask's
                 templating language. Bootstrap as the CSS framework for styling.
+                Heroku for hosting.
               </p>
               <strong>URL: </strong>
               <a
@@ -175,7 +177,7 @@ function Index() {
               </h2>
               <p>
                 <strong>Info: </strong>Website highlighting some projects and a
-                little bit more about me.
+                little bit more about me. Hosted using Netlify.
               </p>
               <p>
                 <strong>Technologies used:</strong> React (Gatsby) on the front
